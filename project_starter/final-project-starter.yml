@@ -224,9 +224,9 @@ Resources:
           apt-get install apache2 -y
           systemctl start apache2.service
           cd /var/www/html
-          echo "My Demo Web Server Up and Running!" > index.html
+          echo "it works! Udagram, Udacity" > index.html
       ImageId: ami-025102f49d03bec05
-      KeyName: udagramKey
+      # KeyName: udagramKey
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
