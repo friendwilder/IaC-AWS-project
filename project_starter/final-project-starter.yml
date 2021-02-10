@@ -226,7 +226,6 @@ Resources:
           cd /var/www/html
           echo "it works! Udagram, Udacity" > index.html
       ImageId: ami-025102f49d03bec05
-      # KeyName: udagramKey
       SecurityGroups:
       - Ref: WebServerSecGroup
       InstanceType: t3.small
